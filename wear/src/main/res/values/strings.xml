@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BinWatch</string>
+    <string name="my_digital_name">Binary</string>
+    <string name="my_digital_name_tern">Ternary</string>
+    <string name="digital_config_name" translatable="false">config</string>
+    <string name="theme_color" translatable="false">theme color</string>
+    <string name="show_hide_battery" translatable="false">show / hide battery</string>
+</resources>

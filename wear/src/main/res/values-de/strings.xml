@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BinWatch</string>
+    <string name="my_digital_name">Binär</string>
+    <string name="my_digital_name_tern">Ternär</string>
+</resources>

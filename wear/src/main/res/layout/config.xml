@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+>
+    <ImageView
+            android:id="@+id/color_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:contentDescription="@string/theme_color"
+            android:layout_weight="1"
+            android:onClick="onTheme"
+            android:src="@drawable/ic_color_lens_green_24dp"
+    />
+
+    <TextView
+            android:id="@+id/representation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:onClick="onRep"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/dig"
+    />
+
+
+    <ImageView
+            android:id="@+id/battery"
+            android:onClick="onBattery"
+            android:contentDescription="@string/show_hide_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_remove_battery"
+    />
+
+</LinearLayout>
