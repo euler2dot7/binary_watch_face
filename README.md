@@ -7,7 +7,10 @@ Configurations:
 - Battery status.
 - Green and white color theme.
 
-#### Play Store : https://play.google.com/store/apps/details?id=it.golovchenko.binwatch
+
+<a href='https://play.google.com/store/apps/details?id=it.golovchenko.binwatch'>
+    <img alt='Get it on Google Play' src='http://i.imgur.com/tka3Exw.png'/>
+</a>
 
 ## Getting Started
  * Clone the repository.

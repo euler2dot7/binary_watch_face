@@ -9,9 +9,9 @@ buildscript {
     ext {
         versionMajor = 0
         versionMinor = 1
-        versionPatch = 4
+        versionPatch = 5
         versionClassifier = null
-        isSnapshot = true
+        isSnapshot = false
         wearMinimumSdkVersion = 21
         mobileMinimumSdkVersion = 19
     }
