@@ -2,7 +2,7 @@
           package="it.golovchenko.binwatch">
 
     <application android:allowBackup="true"
-                 android:label="@string/app_name"
+                 android:label="${appName}"
                  android:icon="@mipmap/ic_launcher"
                  android:roundIcon="@mipmap/ic_launcher"
                  android:supportsRtl="true"

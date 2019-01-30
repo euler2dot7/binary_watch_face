@@ -4,7 +4,6 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "$appId"
         minSdkVersion mobileMinimumSdkVersion
         targetSdkVersion 28
         versionCode generateVersionCode()
