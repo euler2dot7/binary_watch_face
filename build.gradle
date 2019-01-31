@@ -13,7 +13,7 @@ buildscript {
         releasePath = '/dev/shm/'
         versionMajor = 0
         versionMinor = 1
-        versionPatch = 6
+        versionPatch = 7
         versionClassifier = null
         isSnapshot = false
         wearMinimumSdkVersion = 21
@@ -92,6 +92,8 @@ subprojects {
                         signingConfig signingConfigs.release
                     }
                     debug {
+//                        manifestPlaceholders = [appName: appNameTernary]
+//                        applicationIdSuffix = ternarySufix
                         manifestPlaceholders = [appName: appNameBinary]
                         applicationIdSuffix = binarySufix
                     }
